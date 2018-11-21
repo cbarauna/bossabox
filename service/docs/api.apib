@@ -1,0 +1,44 @@
+FORMAT:1A
+HOST:http://localhost:3000/tools
+
+#Sample da Api
+
+Api proposta como desafio pela bossa-box
+
+#Group da Api
+
+##Sobre
+ 
+# Group tools
+
+## Ferramenta [/tools]
+
+### Criar ferramenta [POST]
++ Request Criar uma ferramenta
+
+        + Atributes(Ferramenta)
++ Response 2000 (application/json)
+
+        + Atributes(Ferramenta)
+
+### Listar ferramentas [GET]
++ Response 2000 (application/json)
+
+        + Atributes(array[Ferramenta])
+
+## Ferramenta [/tools/{_id}]
+
+### Deletar ferramenta [DELETE]
++ Parameters
+    + _id: 1 (string, required) - ID da ferramenta
++ Response 2000 (application/json)
+
+        + Atributes(array[Ferramenta])
+
+# Data Structures
+
+## Ferramenta (object)
+    + title (string)
+    + link (string)
+    + description (string)
+    + tag (array)
