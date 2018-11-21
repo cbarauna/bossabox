@@ -1,5 +1,6 @@
 # bossabox
 
 
-
-Preferencia utilizar o yarn, projeto será iniciado na porta 3000
+Fazer Clone do projeto.
+  Iniciar projeto 
+    projeto será iniciado na porta 3000
